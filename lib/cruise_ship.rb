@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner = ""
   passengers.each do |suite, person|
     if suite == :suite_a && person[0] == "A"
-      winner = name
+      winner = person
     end
   end
   winner
